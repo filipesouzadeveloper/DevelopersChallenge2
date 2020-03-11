@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevChallenge.Import.OFX.Api.Domain\DevChallenge.Import.OFX.Api.Domain.csproj" />
+    <ProjectReference Include="..\DevChallenge.Import.OFX.CrossCutting.Common\DevChallenge.Import.OFX.CrossCutting.Common.csproj" />
+  </ItemGroup>
+
+</Project>
